@@ -1,5 +1,7 @@
 import React from 'react';
 import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button';
+
 import './RecipeForm.css';
 
 const RecipeForm: React.FC = () => {
@@ -15,6 +17,7 @@ const RecipeForm: React.FC = () => {
     <br />
       <Form.File id="exampleFormControlFile1" label="Example file input" />
     </Form.Group>
+    <Button variant="dark">Add Recipe</Button>
   </Form>
 
 }

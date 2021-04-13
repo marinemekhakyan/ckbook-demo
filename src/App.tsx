@@ -1,12 +1,12 @@
 import React from 'react';
 import RecipeForm from './components/RecipeForm';
+// import RecipePage from './components/RecipePage';
+
+// import { Router, Route, Switch, Link } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-       <h1>Welcome To Your Digital Cookbook!</h1>
-       <RecipeForm />
-    </div>
+    <RecipeForm />
   );
 }
 
